@@ -1,13 +1,13 @@
-<h1 align="center"> iMovi </h1>
+<h1 align="center"> Flavia Rocha Atelie </h1>
 
 <p align="center">
-Layout de site de venda de imóveis.  <br/>
+ Agora contamos com um site para melhor aproveitamento de seus clientes.  <br/>
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="projeto Clima" src="src/preview-iMovi.png" width="100%">
+  <img alt="FR Atelie" src="" width="100%">
 </p>
 
 ## 🚀 Tecnologias
