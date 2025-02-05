@@ -1,7 +1,7 @@
 <h1 align="center"> Flavia Rocha Atelie </h1>
 
 <p align="center">
- Agora contamos com um site para melhor aproveitamento de seus clientes.  <br/>
+ Agora contamos com um site para melhor aproveitamento de nossos clientes.  <br/>
 </p>
 
 <br>
