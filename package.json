@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "bootstrap-icons": "^1.11.3",
     "prompt-sync": "^4.2.0"
   },
   "scripts": {
