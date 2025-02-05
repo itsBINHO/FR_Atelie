@@ -7,7 +7,7 @@
 <br>
 
 <p align="center">
-  <img alt="FR Atelie" src="" width="100%">
+<!--   <img alt="FR Atelie" src="" width="100%"> -->
 </p>
 
 ## 🚀 Tecnologias
