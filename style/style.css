@@ -25,9 +25,9 @@
 
 /* NAVBAR */
 
-/* #navbar {
-    border-bottom: 1px solid #7a7a7a;
-} */
+#navbar {
+    margin-top: 0;
+}
 
 #navbar a:hover {
     color: #7a7a7a;
@@ -50,7 +50,8 @@
 #navbar-items .navbar-nav {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 70%;
+    margin-top: 1em;
 }
 
 #navbar-items .nav-item {
