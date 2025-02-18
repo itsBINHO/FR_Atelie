@@ -59,14 +59,6 @@
     margin: 0 1em;
 }
 
-.nav-item button {
-    border: none;
-    background-color: transparent;
-    color: #7a7a7a;
-    font-size: 1em;
-    cursor: pointer;
-}
-
 /* SLIDER */
 
 .carousel-item:hover {
