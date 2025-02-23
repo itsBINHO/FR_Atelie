@@ -291,6 +291,7 @@ body::-webkit-scrollbar {
 
 #footer-details {
     margin-bottom: 3em;
+    margin-left: -2em;
 }
 
 #news-container,
@@ -326,11 +327,9 @@ body::-webkit-scrollbar {
 /* FOOTER BOTTOM */
 
 #footer-bottom {
-    display: flex;
-    flex-direction: column;
-    
     border-top: 1px solid #7a7a7a;
-}
+    padding-top: 2em;
+  }
 
 #footer-bottom i {
     color: #e61e10;
