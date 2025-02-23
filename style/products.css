@@ -4,6 +4,26 @@
   color: #382711;
 }
 
+.bg-primary-color {
+  background-color: #ffffff;
+}
+
+.bg-secundary-color {
+  background-color: #eceBea;
+}
+
+.bg-dark-color {
+  background-color: #050505;
+}
+
+.primary-color {
+  color: #050505;
+}
+
+.secundary-color {
+  color: #7a7a7a;
+}
+
 /* NAVBAR */
 
 #navbar {
@@ -45,23 +65,69 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  margin-top: 8em;
+  margin-top: 10em;
   margin-bottom: 1em;
 }
 .produto {
   position: relative;
-  background: white;
   padding: 1px;
   border-radius: 10px;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
   text-align: center;
-  perspective: 1000px
+}
+
+ /* From Uiverse.io by joe-watson-sbf */
+
+.flip-card {
+  background-color: transparent;
+  width: 390px;
+  height: 400px;
+  perspective: 1000px;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 1rem;
+}
+
+.flip-card-back {
+  background-color: rgb(230, 229, 228);
+  transform: rotateY(180deg);
 }
 
 .produto img {
-  width: 414px;
-  height: 414px ;
-  object-fit: fill;
+  width: 390px;
+  height: 400px ;
+  object-fit: cover;
   border-radius: 10px;
 
   transition: transform 0.9s ease, top 0.1s ease, left 0.1s ease;
@@ -78,7 +144,7 @@ img:hover {
 button {
   /* Variaveis */
   --button_radius: 0.75em;
-  --button_color: #e8e8e8;
+  --button_color: #ffffff;
   --button_outline_color: #000000;
   font-size: 17px;
   font-weight: bold;
