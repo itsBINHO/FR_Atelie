@@ -9,6 +9,19 @@ body::-webkit-scrollbar {
   display: none; /* Esconde a barra de rolagem */
 }
 
+main {
+  opacity: 0;
+  transform: translateY(50px); /* Inicialmente fora de vista, mais para baixo */
+  animation: aparecerDeCima 1s ease-out forwards; /* Definindo a animação */
+}
+
+@keyframes aparecerDeCima {
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Move para a posição original */
+  }
+}
+
 .bg-primary-color {
   background-color: #ffffff;
 }
@@ -108,7 +121,7 @@ body::-webkit-scrollbar {
   transform-style: preserve-3d;
 }
 
-.flip-card:hover .flip-card-inner {
+.flip-card.flipped .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -136,7 +149,7 @@ body::-webkit-scrollbar {
   object-fit: cover;
   border-radius: 10px;
 
-  transition: transform 0.9s ease, top 0.1s ease, left 0.1s ease;
+  transition: transform 0.1s ease, top 0.1s ease, left 0.1s ease;
 }
 
 img:hover {

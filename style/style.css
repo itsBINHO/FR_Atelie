@@ -9,6 +9,19 @@ body::-webkit-scrollbar {
     display: none; /* Esconde a barra de rolagem */
 }
 
+#slider-container {
+    opacity: 0;
+    transform: translateY(50px); /* Inicialmente fora de vista, mais para baixo */
+    animation: aparecerDeCima 1s ease-out forwards; /* Definindo a animação */
+  }
+  
+  @keyframes aparecerDeCima {
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Move para a posição original */
+    }
+  }
+
 .bg-primary-color {
     background-color: #ffffff;
 }
